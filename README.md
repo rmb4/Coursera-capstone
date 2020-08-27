@@ -10,7 +10,14 @@ Car accidents not only impact lives but also have devestating impacts on the eco
 There are many risks drivers face while driving. Several variables can change routes and cause accident prone areas. Road conditions often change due to weather and can create high accident prone routes. Different types of collisions also have different impacts. 
 
 # Goal 
-This project will aim to predict what conditions cause the most severe collisions. I will analyze different sets of circumstances and find the correlation between severe accidents and several variables including weather and types of collisions. Finally, I will also highlight the circumstances that are limited to property damage in accidents versus cases of physical injury.  
+This project will aim to predict what conditions cause the most severe collisions. I will analyze different sets of circumstances and find the correlation between severe accidents and several variables including weather and types of collisions. Finally, I will also highlight the circumstances that are limited to property damage in accidents versus cases of physical injury. 
+
+I will go in depth with the factors listed below to analyze what conditions worsen car accidents.
+1. Details of the accident: including the severity of collisions, resulting in property damage, non-fatal or fatal injuries. Analyzing collision type by understanding who was involved in the crash. Also the time frame of the accident comparing night and day as well as weekdays against weekends. 
+2. Location: what address whether it be more alleys, blocks or intersections.
+3. Human factors: if those involved in the accident were attentive, under the influence, speeding, or breaking any rules of the road. 
+4. Environmental factors: these factors include weather conditions, comparing sunny and rainy days, lighting and conditions of the road (wet or dry). 
+
 
 # Data 
 The dataset used in this project specifically pertains to the accidents in the city of Seattle, Washington and comes directly from the Seattle's data on transportation. I will be creating a machine learning model in efforts to analyze the large number of observations in the dataset. The link to the data is provided from (https://s3.us.cloud-object-storage.appdomain.cloud/cf-courses-data/CognitiveClass/DP0701EN/version-2/Data-Collisions.csv). 
@@ -18,5 +25,5 @@ The dataset used in this project specifically pertains to the accidents in the c
 A summary of the dataset can be found here (https://s3.us.cloud-object-storage.appdomain.cloud/cf-courses-data/CognitiveClass/DP0701EN/version-2/Metadata.pdf). This includes the dataset basics, attribute information, and collision code matrix to help further understand the dataset. 
 
 # Methodology 
-Looking at the dataset available above, the features included are categorical. I will be using Machine learning algorithim with the car collisions and severity recognition. 
+Looking at the dataset available above, the features included are categorical. I will be using Machine learning algorithim with the car collisions and severity recognition. I will load the dataset into Jupyter Notebooks in effort to perform a Machine Learning Algorithim that will eventually classify these accidents and predict future accidents and collisions. 
 
